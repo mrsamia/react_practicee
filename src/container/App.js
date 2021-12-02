@@ -1,13 +1,14 @@
 import React from "react";
 import Button from "../component/Button";
 import Input from "../component/Input";
+import Navbar from "../component/Navbar";
 import '../Style';
 
 function App(){
     return(
 
         <div className="txt_center">
-
+            <Navbar type='nav1'/>
             <div>
             <h1>MY APP</h1>
             </div>
@@ -28,7 +29,9 @@ function App(){
             <div>
                  <Button btn="Submit"/>
             </div>
-            
+            <div>
+            <Navbar type="nav2"/>
+            </div>
         </div>
         
     );

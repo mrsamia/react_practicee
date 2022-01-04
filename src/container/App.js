@@ -6,6 +6,9 @@ import Header from "../component/Header";
 import First_part from "../component/First_part";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style';
+import Second_part from "../component/Second_part";
+import Card from "../component/Card";
+import img_1 from "../images/img_1.png";
 
 
 function App(){
@@ -13,8 +16,10 @@ function App(){
 
         <div className="txt_center">
             <Navbar type='nav2'/>
-            
+
             <First_part/>
+            <Second_part/>
+           
 
 
 
@@ -32,8 +37,7 @@ function App(){
 
 
 
-
-            <div>
+            <div className="pt-5">
             <h1>MY APP</h1>
             </div>
            

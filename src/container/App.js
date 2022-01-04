@@ -29,9 +29,7 @@ function App(){
             <div>
                  <Button btn="Submit"/>
             </div>
-            <div>
-            <Navbar type="nav2"/>
-            </div>
+           
         </div>
         
     );

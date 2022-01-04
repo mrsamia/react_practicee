@@ -26,7 +26,7 @@ const Nav2 = [
     },
     {
         link: '#',
-        name: 'About'
+        name: 'Services'
     },
 ]
 

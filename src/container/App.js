@@ -2,13 +2,37 @@ import React from "react";
 import Button from "../component/Button";
 import Input from "../component/Input";
 import Navbar from "../component/Navbar";
+import Header from "../component/Header";
+import First_part from "../component/First_part";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style';
+
 
 function App(){
     return(
 
         <div className="txt_center">
-            <Navbar type='nav1'/>
+            <Navbar type='nav2'/>
+            
+            <First_part/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div>
             <h1>MY APP</h1>
             </div>

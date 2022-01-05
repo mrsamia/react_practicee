@@ -1,0 +1,24 @@
+
+
+{
+    "title": "How it works?",
+    "subTitle": "Culpa deserunt est esse in mollit quis.",
+    "items": [
+        {
+            "img": "img_1.png",
+            "title": "Quis duis incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        },
+        {
+            "img": "img_1.png",
+            "title": "Quis duis incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        },
+        {
+            "img": "img_1.png",
+            "title": "Quis duis incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        }
+
+    ]
+}

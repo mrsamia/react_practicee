@@ -11,6 +11,7 @@ import Card from "../component/Card";
 import img_1 from "../images/img_1.png";
 
 
+
 function App(){
     return(
 

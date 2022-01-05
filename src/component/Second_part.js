@@ -2,6 +2,7 @@ import Header from "./Header";
 import  Button  from "./Button";
 import Card from "./Card";
 import Card_feature from "./Card_feature";
+import HIW from "../data/HIW.json";
 
 function Second_part(){
     return(
@@ -16,7 +17,12 @@ function Second_part(){
             </div>
             
             <div className="pb-5">
-                <Card_feature />
+            <Card_feature
+
+        title={HIW.title}
+        subtitle={HIW.subTitle}
+        itmsAb={HIW.items}
+      />
             </div>
            
         </div>

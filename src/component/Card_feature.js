@@ -1,32 +1,36 @@
-import  Button  from "./Button";
 import Card from "./Card";
-import img_1 from "../images/img_1.png";
 
-function Card_feature({items=[]}){
+function Card_feature({itmsAb=[]}){
     return(
-        <div className="container row">
-            
-  <div className="col-4">
-      <Card img={img_1} cardTitle="Samia Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
-  </div>
-  <div className="col-4">
-      <Card img={img_1} cardTitle="Samia Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
-  </div>
-  <div className="col-4">
-      <Card img={img_1} cardTitle="Samia Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
-  </div>
-  
-</div>
-       
-       
-
-
-
-
-       
-
-
-       
+   
+       <div className="row mrgin_padding text-center">
+          {itmsAb.map((item) => (
+            <div className="col-4 ">
+              <Card
+                imge={item.img}
+                cardTitle={item.title}
+                cardText={item.subTitle}
+              />
+            </div>
+          ))}
+        </div>      
     );
 }
 export default Card_feature;
+
+
+
+
+//   <div className="container row">
+            
+//   <div className="col-4">
+//       <Card img={img_1} cardTitle="Samia Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
+//   </div>
+//   <div className="col-4">
+//       <Card img={img_1} cardTitle="Moshfiq Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
+//   </div>
+//   <div className="col-4">
+//       <Card img={img_1} cardTitle="Rony Rahman" cardText="Some example text some example text. Jane Doe is an architect and engineer"/>
+//   </div>
+  
+// </div>

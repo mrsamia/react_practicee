@@ -4,6 +4,7 @@ import Card from "./Card";
 import Card_feature from "./Card_feature";
 import HIW from "../data/HIW.json";
 
+
 function Second_part(){
     return(
         <div className="second_part">
@@ -26,6 +27,7 @@ function Second_part(){
             </div>
            
         </div>
+       
         </div>
     );
 }

@@ -22,7 +22,7 @@ function App(){
             <First_part/>
             <Second_part/>
            
-          <Mapping_prac  />
+          <Mapping_prac />
 
 
 

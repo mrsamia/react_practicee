@@ -10,7 +10,11 @@ import Second_part from "../component/Second_part";
 import Card from "../component/Card";
 import img_1 from "../images/img_1.png";
 import Mapping_prac from "../component/Mapping_prac";
-import data from "../data/mappingData.json";
+import daata from "../data/mappingData.json";
+import Mapping_practice_t from "../component/Mapping_practice_t";
+import Mapping_item from "../component/Mapping_item";
+import HIW from "../data/HIW.json";
+
 
 
 function App() {
@@ -24,8 +28,9 @@ function App() {
 
             <Mapping_prac />
 
+            <Mapping_practice_t Mapping={daata.data} title={daata.title} subtitle={daata.subtitle}/>
 
-
+            <Mapping_item title="Samia" />
 
 
 

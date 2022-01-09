@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function First_part() {
     return (
-        <div className="container vh-100 first_part ">
+        <div className="container vh-100 first_part txt_center ">
             <div className="">
                 <Header title="Redesigned, How you build landing page!" />
             </div>

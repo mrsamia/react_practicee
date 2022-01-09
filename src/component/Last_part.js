@@ -4,7 +4,7 @@ import Header from "../component/Header";
 
 function Last_part() {
     return (
-        <div className="last_part">
+        <div className="last_part txt_center">
             <div className="pt-5 text-white">
                 <Header title="Get started" />
             </div>
@@ -22,9 +22,15 @@ function Last_part() {
             <div>
                 <Input name="address" placeholder="Address" />
             </div>
-           
+
             <div className="pt-4 pb-4">
-                <Button btn="Submit" />
+                <Button btn="Submit" width="900px" border="none"
+
+                    height="200px"
+
+
+
+                />
             </div>
         </div>
     );

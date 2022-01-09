@@ -6,7 +6,7 @@ import daata from "../data/mappingData.json";
 
 function Second_part() {
     return (
-        <div className="second_part">
+        <div className="second_part txt_center">
             <div className="container ">
                 <div className="pt-5">
                     <Header title="How It Works!" />

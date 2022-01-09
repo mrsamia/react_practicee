@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style';
 import Second_part from "../component/Second_part";
 import Last_part from "../component/Last_part";
-// import img_1 from "../images/img.png";
+import Third_part from "../component/Third_part";
+import img from "../images/img.png";
 // import Mapping_prac from "../component/Mapping_prac";
 // import daata from "../data/mappingData.json";
 // import Mapping_practice_t from "../component/Mapping_practice_t";
@@ -17,11 +18,19 @@ import Last_part from "../component/Last_part";
 function App() {
     return (
 
-        <div className="txt_center">
+        <div >
             <Navbar type='nav2' />
 
-            <First_part />
+            <First_part/>
             <Second_part />
+            <Third_part subtitle="Create custom landing pages with Omega that converts
+             more visitors than any website. With lots of unique blocks, you can easily build a page without coding." 
+             imge={require("../images/img.png")}
+             condition={false}/>
+             <Third_part subtitle="Create custom landing pages with Omega that converts
+             more visitors than any website. With lots of unique blocks, you can easily build a page without coding." 
+             imge={require("../images/img.png")}
+             condition={true}/>
             <Last_part />
 
 

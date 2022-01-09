@@ -2,8 +2,7 @@ import Header from "./Header";
 import Button from "./Button";
 import Card from "./Card";
 import Card_feature from "./Card_feature";
-import HIW from "../data/HIW.json";
-
+import daata from "../data/mappingData.json";
 
 function Second_part() {
     return (
@@ -20,9 +19,10 @@ function Second_part() {
                 <div className="pb-5">
                     <Card_feature
 
-                        title={HIW.title}
-                        subtitle={HIW.subTitle}
-                        itmsAb={HIW.items}
+                        title={daata.title}
+                        subtitle={daata.subtitle}
+                        itmsAb={daata.data}
+                       
                     />
                 </div>
 

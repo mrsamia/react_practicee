@@ -9,7 +9,7 @@ function Card_feature({itmsAb=[]}){
               <Card
                 imge={item.img}
                 cardTitle={item.title}
-                cardText={item.subTitle}
+                cardText={item.subtitle}
               />
             </div>
           ))}

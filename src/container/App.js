@@ -13,16 +13,16 @@ import Mapping_prac from "../component/Mapping_prac";
 import data from "../data/mappingData.json";
 
 
-function App(){
-    return(
+function App() {
+    return (
 
         <div className="txt_center">
-            <Navbar type='nav2'/>
+            <Navbar type='nav2' />
 
-            <First_part/>
-            <Second_part/>
-           
-          <Mapping_prac />
+            <First_part />
+            <Second_part />
+
+            <Mapping_prac />
 
 
 
@@ -40,28 +40,28 @@ function App(){
 
 
             <div className="pt-5">
-            <h1>MY APP</h1>
+                <h1>MY APP</h1>
             </div>
-           
+
             <div>
-                <Input name="username" placeholder="User Name"/>
-            </div>    
-            <div>
-                <Input name="password" placeholder="PassWord"/>
+                <Input name="username" placeholder="User Name" />
             </div>
             <div>
-                <Input name="address" placeholder="Address"/>
+                <Input name="password" placeholder="PassWord" />
             </div>
             <div>
-                <Input name="number" placeholder="Number"/>
+                <Input name="address" placeholder="Address" />
             </div>
-            
             <div>
-                 <Button btn="Submit"/>
+                <Input name="number" placeholder="Number" />
             </div>
-           
+
+            <div>
+                <Button btn="Submit" />
+            </div>
+
         </div>
-        
+
     );
 }
 export default App;
